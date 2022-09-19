@@ -38,27 +38,27 @@ for word2 in sorted_word_list:
 # In[12]:
 
 
-print("All 5 lettered words:")
+print("All 5 lettered words:") #print message all 5 lettered words - words created from unscrambled user input word
 for word3 in sorted_word_list:
-    if (len(word3) == 5):
+    if (len(word3) == 5): #include only words that have 5 letters
         print(word3)
 
 
 # In[13]:
 
 
-print("All 4 lettered words:")
+print("All 4 lettered words:") #print message all 4 lettered words - words created from unscrambled user input word
 for word4 in sorted_word_list:
-    if (len(word4) == 4):
+    if (len(word4) == 4): #include only words that have 4 letters
         print(word4)
 
 
 # In[14]:
 
 
-print("All 3 lettered words:")
+print("All 3 lettered words:") #print message all 3 lettered words - words created from unscrambled user input word
 for word5 in sorted_word_list:
-    if (len(word5) == 3):
+    if (len(word5) == 3): #include only words that have 3 letters
         print(word5)
 
 

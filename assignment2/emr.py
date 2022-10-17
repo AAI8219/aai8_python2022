@@ -626,12 +626,7 @@ class procedure_1:
         return json.dumps(fields_data)
 
 
-prod = procedure_1(procedure_1_id="", procedure_1_name="x-ray", date_of_procedure_1="1999-08-15")
-prod.editProcedure_1("heart surgery", "2012-08-15")
-prod.set_procedure_1_name("brain surgery")
-prod.set_date_of_procedure_1("2025-08-15")
-prod.deleteProcedure_1()
-print(prod.to_json())
+
 
 
 """
@@ -679,6 +674,13 @@ dig.set_date_of_diagnosis("2022-12-13")
 dig.deleteDiagnosis()
 dig2.deleteDiagnosis()
 print(dig.to_json())
+
+prod = procedure_1(procedure_1_id="", procedure_1_name="x-ray", date_of_procedure_1="1999-08-15")
+prod.editProcedure_1("heart surgery", "2012-08-15")
+prod.set_procedure_1_name("brain surgery")
+prod.set_date_of_procedure_1("2025-08-15")
+prod.deleteProcedure_1()
+print(prod.to_json())
 
 
 """

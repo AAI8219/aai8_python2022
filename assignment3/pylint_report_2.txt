@@ -1,0 +1,13 @@
+PS C:\Users\aai8\Documents\INFSCI 1599\HW\myproject> pylint emr_copy.py
+************* Module emr_copy
+emr_copy.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+emr_copy.py:20:4: R0913: Too many arguments (6/5) (too-many-arguments)
+emr_copy.py:174:4: R0913: Too many arguments (7/5) (too-many-arguments)
+emr_copy.py:225:4: R0913: Too many arguments (6/5) (too-many-arguments)
+emr_copy.py:351:0: R0902: Too many instance attributes (8/7) (too-many-instance-attributes)
+emr_copy.py:353:4: R0913: Too many arguments (9/5) (too-many-arguments)
+emr_copy.py:353:4: R0914: Too many local variables (16/15) (too-many-locals)
+emr_copy.py:419:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 9.84/10 (previous run: 9.84/10, +0.00)
